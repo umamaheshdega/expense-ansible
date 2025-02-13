@@ -16,12 +16,12 @@
   ansible.builtin.user:
     name: expense
 
-- name: include from common role
-  # tags: 
-  # - deployment
-  include_role:
-    name: common
-    tasks_from: main
+# - name: include from common role
+#   # tags: 
+#   # - deployment
+#   include_role:
+#     name: common
+#     tasks_from: main
 
 # - name: create app directory
 #   ansible.builtin.file:
