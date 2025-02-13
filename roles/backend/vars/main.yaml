@@ -1,4 +1,3 @@
-MYSQL_HOST: "mysql-{{ ENVIRONMENT }}.daws82s.online"
 MYSQL_USER: root
 MYSQL_PASSWORD: ExpenseApp1
 APP_LOCAION: /app
