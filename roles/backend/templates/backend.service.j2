@@ -2,7 +2,7 @@
 Description = Backend Service
 
 [Service]
-User=mielleium
+User=expense
 Environment=DB_HOST="{{ MYSQL_HOST }}"
 ExecStart=/bin/node /app/index.js
 SyslogIdentifier=backend
